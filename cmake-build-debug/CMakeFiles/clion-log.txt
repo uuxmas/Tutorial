@@ -1,0 +1,42 @@
+"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2021.3.3/bin/ninja/win/ninja.exe" -G Ninja C:\Users\uuxmas\CLionProjects\untitled
+-- OFF
+-- setting Eigen directory start
+-- AMD64
+-- Windows-10.0.19042
+-- Windows
+-- 10.0.19042
+-- C:/Users/uuxmas/CLionProjects/untitled
+-- C:/Users/uuxmas/CLionProjects/untitled/cmake-build-debug
+-- 
+-- 
+-- Windows-10.0.19042
+-- C:/Users/uuxmas/CLionProjects/untitled
+-- C:/Users/uuxmas/CLionProjects/untitled/cmake-build-debug
+-- Windows-10.0.19042
+-- C:/Users/uuxmas/CLionProjects/untitled/CMakeLists.txt
+-- 39
+-- 
+-- 
+./main.cpp
+-- C:/Users/uuxmas/CLionProjects/untitled/eigen-3.4.0
+-- setting Eigen directory finished
+-- >> === include_dirs = C:/Users/uuxmas/CLionProjects/untitled/.;C:/eigen-3.4.0
+CMake Error at CMakeLists.txt:61 (find_package):
+  By not providing "FindEigen3.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Eigen3", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "Eigen3" with any
+  of the following names:
+
+    Eigen3Config.cmake
+    eigen3-config.cmake
+
+  Add the installation prefix of "Eigen3" to CMAKE_PREFIX_PATH or set
+  "Eigen3_DIR" to a directory containing one of the above files.  If "Eigen3"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/uuxmas/CLionProjects/untitled/cmake-build-debug/CMakeFiles/CMakeOutput.log".
